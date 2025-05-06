@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokedex</title>
+    <link rel="stylesheet" href="../css/tarjeta-producto.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,23 +13,42 @@
     />
   </head>
   <body>
-    <header></header>
-    <main><div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <header class="bg-danger">
+      <div>
+        <img
+          src=""
+          alt=""
+          class="imagen-logo"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="contenedor-padre-de-tarjetas vw-100 d-flex">
+        <div
+          class="caja-1-principal p4 m-5 rounded d-flex flex-column align-items-center w-50 e"
+        >
+          <h4 class="bg-success text-light text-center fs-3 py-2 w-100">
+            Bulbasaur
+          </h4>
+          <div class="pt-3">
+            <img
+              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+              alt="imagen de bulbasaur"
+              class="imagen-bulbasaur"
+            />
+          </div>
+          <div class="info-de-tarjetas text-center px-3 pt-4">
+            <p class="fs-6"><strong>Peso:</strong>15,2 lbs</p>
+            <p class="fs-6"><strong>Tipo:</strong> Planta / Veneno</p>
+            <p class="fs-5 px-4 pb-4 text-secondary">
+              Durante algún tiempo después de su nacimiento, utiliza los
+              nutrientes que contiene la semilla que tiene en la espalda para
+              crecer.
+            </p>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div></main>
+      </div>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
