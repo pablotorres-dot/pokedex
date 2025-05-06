@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
 }
-.imagen-logo {
-  mix-blend-mode: multiply;
+
+.imagen-logo{
+    height: 100px;
 }
 
 .caja-1-principal {
