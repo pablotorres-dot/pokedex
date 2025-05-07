@@ -2,17 +2,40 @@
   margin: 0;
   padding: 0;
 }
-
-.imagen-logo{
-    height: 100px;
+header {
+  height: 70px;
+  position: sticky;
+}
+.imagen-logo {
+  height: 50px;
 }
 
 .caja-1-principal {
-  height: 330px;
-  border: 1px solid black;
+  height: 430px;
+
+  box-shadow: -2px 2px 11px 1px rgba(0, 0, 0, 0.3);
 }
+@media (min-width: 768px) {
+  .caja-1-principal {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  /* contenedor-padre-de-tarjetas-2 {
+    position: relative;
+  }
+  .titulo {
+    position: absolute;
+  } */
+}
+
 .imagen-bulbasaur {
   mix-blend-mode: multiply;
-  width: 40px;
-  height: 45px;
+  width: 55px;
+  height: 57px;
+}
+.cajita-de-pokemon1 {
+  width: 200px;
+  height: 200px;
+  box-shadow: -2px 2px 11px 1px rgba(0, 0, 0, 0.3);
 }

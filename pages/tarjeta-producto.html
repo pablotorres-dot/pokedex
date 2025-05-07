@@ -14,37 +14,72 @@
   </head>
   <body>
     <header class="bg-danger">
-      <div>
+      <div class="d-flex flex-row align-items-center justify-content-center">
         <img
-          src=""
-          alt=""
+          src="../images/logoPokemon.png"
+          alt="logo de pokemon"
           class="imagen-logo"
         />
       </div>
     </header>
     <main>
-      <div class="contenedor-padre-de-tarjetas vw-100 d-flex">
-        <div
-          class="caja-1-principal p4 m-5 rounded d-flex flex-column align-items-center w-50 e"
-        >
-          <h4 class="bg-success text-light text-center fs-3 py-2 w-100">
-            Bulbasaur
-          </h4>
-          <div class="pt-3">
-            <img
-              src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
-              alt="imagen de bulbasaur"
-              class="imagen-bulbasaur"
-            />
+      <div class="d-flex">
+        <div class="contenedor-padre-de-tarjetas d-flex justify-content-center">
+          <div
+            class="caja-1-principal p4 my-5 mx-3 rounded d-flex flex-column align-items-center w-75"
+          >
+            <h4
+              class="bg-success text-light text-center fs-3 py-2 w-100 rounded-top"
+            >
+              Bulbasaur
+            </h4>
+            <div class="pt-3">
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+                alt="imagen de bulbasaur"
+                class="imagen-bulbasaur"
+              />
+            </div>
+            <div class="info-de-tarjetas text-center px-3 pt-5">
+              <p class="fs-6"><strong>Peso:</strong>15,2 lbs</p>
+              <p class="fs-6"><strong>Tipo:</strong> Planta / Veneno</p>
+              <p class="fs-5 px-4 pb-4 text-secondary">
+                Durante algún tiempo después de su nacimiento, utiliza los
+                nutrientes que contiene la semilla que tiene en la espalda para
+                crecer.
+              </p>
+            </div>
           </div>
-          <div class="info-de-tarjetas text-center px-3 pt-4">
-            <p class="fs-6"><strong>Peso:</strong>15,2 lbs</p>
-            <p class="fs-6"><strong>Tipo:</strong> Planta / Veneno</p>
-            <p class="fs-5 px-4 pb-4 text-secondary">
-              Durante algún tiempo después de su nacimiento, utiliza los
-              nutrientes que contiene la semilla que tiene en la espalda para
-              crecer.
-            </p>
+        </div>
+
+        <div
+          class="contenedor-padre-de-tarjetas-2 w-100 d-flex flex-column justify-content-md-center"
+          style="border: 1px solid black"
+        >
+          <h2 class="titulo text-center">Evoluciones</h2>
+
+          <div class="d-flex px-3 justify-content-md-center">
+            <div
+              class="cajita-de-pokemon1 m-4 d-flex flex-column align-items-center rounded my-md-5"
+            >
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/002.png"
+                alt="Ivysaur"
+                class="Ivysaur w-75 mt-4"
+              />
+              <h5 class="nombre-1 text-center mb-md-3 fs-6">Ivysaur</h5>
+            </div>
+
+            <div
+              class="cajita-de-pokemon1 m-4 d-flex flex-column align-items-center my-md-5 rounded"
+            >
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003.png"
+                alt="Venusaur"
+                class="Venusaur w-75 mt-4"
+              />
+              <h5 class="nombre-1 text-center mt-3 mb-md-3 fs-6">Venusaur</h5>
+            </div>
           </div>
         </div>
       </div>
